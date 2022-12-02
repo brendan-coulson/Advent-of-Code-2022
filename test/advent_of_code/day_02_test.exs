@@ -3,19 +3,18 @@ defmodule AdventOfCode.Day02Test do
 
   import AdventOfCode.Day02
 
-  @tag :skip
+
   test "part1" do
-    input = nil
+    input = AdventOfCode.Input.get!(2,2022)
     result = part1(input)
 
-    assert result
+    assert result == 10941
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
+    input = AdventOfCode.Input.get!(2,2022)
     result = part2(input)
 
-    assert result
+    assert result == 13071
   end
 end
